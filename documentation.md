@@ -13,3 +13,9 @@ Your resource group should look like this:
 ![image](https://user-images.githubusercontent.com/81650373/233091033-c64204eb-59e5-4b6a-bc4b-020c40302865.png)
 
 Now we have made our resources we need to configure them.
+
+Enter the storage account and go to 'Diagnostic settings > Add diagnostic setting', then 'Send to Log Analytics workspace'. Enable StorageRead, StorageWrite and StorageDelete. Your screen should look the same as:
+
+![image](https://user-images.githubusercontent.com/81650373/233093083-f8c756a0-bcc6-4b2d-9a53-d7bbe00c01c9.png)
+
+Hit 'save'.
