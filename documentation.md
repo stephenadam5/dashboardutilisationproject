@@ -31,9 +31,12 @@ Go into Data Factory and launch the studio, from here select 'New > Pipeline' to
 ![image](https://user-images.githubusercontent.com/81650373/233342175-8ba31520-9495-4dc3-aca5-88a2df706dcd.png)
 
 Click on 'Web1' and go to 'Settings' at the bottom. From here enter the following information:
-URL: 'https://login.microsoftonline.com/[ENTER-SOMETHING-HERE]/oauth2/token'
-Method: 'POST'
-Body: 'grant_type=client_credentials&client_id=[YOUR-CLIENT-ID]&resource=https://api.loganalytics.io&client_secret=[ENTER-CLIENT-SECRET]'
-Authentication: 'None'
-Headers: name = 'Content-Type', value = 'application/x-www-form-urlencoded'
-Advanced: n/a
+
+<ul>
+  <li>URL: 'https://login.microsoftonline.com/[ENTER-SOMETHING-HERE]/oauth2/token'</li>
+  <li>Method: 'POST'</li>
+  <li>Body: 'grant_type=client_credentials&client_id=[YOUR-CLIENT-ID]&resource=https://api.loganalytics.io&client_secret=[ENTER-CLIENT-SECRET]'</li>
+  <li>Authentication: 'None'</li>
+  <li>Headers: name = 'Content-Type', value = 'application/x-www-form-urlencoded'</li>
+  <li>Advanced: n/a</li>
+</ul>
